@@ -8,9 +8,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+   return a * b
   }
+
+  console.log(multiply(2, 6));
 
 
 /*
@@ -25,11 +27,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function catYears(/*add your code here*/){
-    /*add your code here*/
+function calculatecatAge(age) {
+   //1 year for human is equivalent to  7 cat years
+  var catYears =  7 * age;
+  return catYears;
 }
-
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: Convert to Arrow Function  🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -38,7 +40,7 @@ function catYears(/*add your code here*/){
 
 
 /*
-
+s
 ------------
 function myFunction() {
 console.log("Function was invoked!");
@@ -46,6 +48,12 @@ console.log("Function was invoked!");
 
 myFunction();
 ----------------
+
+**const myfunction()
+
+//arrow function
+const myfuntion = ()=>"function was inviked"
+console.log() 
 
 let anotherFunction = function (param) {
   return param;
@@ -63,6 +71,8 @@ add(1,2);
 
 */
 
+const add =(param1, param2)=>param1 + param2 
+  console.log(add(1,2))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: Rock, Paper, Scissors - Let's play against the computer! 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -85,6 +95,7 @@ Use the game function below to do the following:
 
 function game(user, computer){
     /*add your code here*/
+    
 }
 
 
@@ -100,6 +111,3 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
